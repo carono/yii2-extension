@@ -1,5 +1,5 @@
 {
-  "name": "carono/yii2-extension",
+  "name": "carono/yii2-plugin",
   "description": "",
   "type": "yii2-extension",
   "license": "MIT",
@@ -12,7 +12,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "carono\\package": "src"
+      "carono\\yii2plugin\\": "src"
     }
   },
   "require": {}
