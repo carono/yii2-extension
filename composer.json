@@ -1,0 +1,19 @@
+{
+  "name": "carono/yii2-extension",
+  "description": "",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Kasyanov",
+      "email": "info@carono.ru",
+      "homepage": "http://carono.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "carono\\package": "src"
+    }
+  },
+  "require": {}
+}
