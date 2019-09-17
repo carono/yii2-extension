@@ -7,7 +7,7 @@
     {
       "name": "Aleksandr Kasyanov",
       "email": "info@carono.ru",
-      "homepage": "http://carono.ru"
+      "homepage": "https://carono.ru"
     }
   ],
   "autoload": {
@@ -15,5 +15,14 @@
       "carono\\yii2plugin\\": "src"
     }
   },
-  "require": {}
+  "require": {
+    "yiisoft/yii2": "^2.0",
+    "carono/yii2-migrate": "^1.1"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }
